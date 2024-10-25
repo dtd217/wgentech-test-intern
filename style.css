@@ -13,6 +13,7 @@ body {
 
 /* Section 1 */
 .section-1 {
+   margin-top: 1px;
    width: 1440px;
    display: flex;
    flex-direction: column;
@@ -43,7 +44,6 @@ body {
    width: 379px;
    height: 617.89px;
    border-radius: 16px;
-   object-fit: cover;
    overflow: hidden;
 }
 
@@ -58,6 +58,7 @@ body {
    line-height: 22px;
    text-align: center;
    color: #2C2A29;
+   word-spacing: 0.2px;
 }
 
 /* Section 2 */
@@ -77,14 +78,13 @@ body {
 }
 
 .section-2 .hero img {
-   width: 684px;
+   width: 700px;
    height: 800px;
    border-radius: 24px;
-   object-fit: cover;
 }
 
 .section-2 .hero .content {
-   width: 684px;
+   width: 700px;
    height: 800px;
    border-radius: 24px;
    background-color: #F4F0EA;
@@ -92,7 +92,6 @@ body {
    flex-direction: column;
    justify-content: flex-end;
    align-items: center;
-   padding-bottom: 48px;
 }
 
 .section-2 .content .content-container {
@@ -133,4 +132,18 @@ body {
    display: flex;
    flex-direction: column;
    gap: 16px;
+   word-spacing: 0.5px;
+}
+
+/* Custom */
+.pb-48 {
+   padding-bottom: 48px !important;
+}
+
+.pb-70 {
+   padding-bottom: 70px !important;
+}
+
+.gap-40{
+   gap: 40px !important;
 }
